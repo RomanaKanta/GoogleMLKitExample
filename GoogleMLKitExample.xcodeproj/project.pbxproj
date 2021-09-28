@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09E809622C7A9FDF4D1C5E10 /* Pods_GoogleMLKitExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97D886ED176AC98233C3839C /* Pods_GoogleMLKitExample.framework */; };
+		303491042702F01E0080AE05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303491032702F01E0080AE05 /* AppDelegate.swift */; };
+		303491062702F01E0080AE05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303491052702F01E0080AE05 /* SceneDelegate.swift */; };
+		303491082702F01E0080AE05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303491072702F01E0080AE05 /* ViewController.swift */; };
+		3034910B2702F01E0080AE05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303491092702F01E0080AE05 /* Main.storyboard */; };
+		3034910D2702F01F0080AE05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3034910C2702F01F0080AE05 /* Assets.xcassets */; };
+		303491102702F01F0080AE05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3034910E2702F01F0080AE05 /* LaunchScreen.storyboard */; };
+		3034911B2702F01F0080AE05 /* GoogleMLKitExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3034911A2702F01F0080AE05 /* GoogleMLKitExampleTests.swift */; };
+		303491262702F01F0080AE05 /* GoogleMLKitExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303491252702F01F0080AE05 /* GoogleMLKitExampleUITests.swift */; };
+		4280194A06AD32BD74E454F6 /* Pods_GoogleMLKitExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFE9990355B543092A822DF /* Pods_GoogleMLKitExampleTests.framework */; };
+		8993A033D3B37DE003294412 /* Pods_GoogleMLKitExample_GoogleMLKitExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2A7D749BD9EF6BDD011F30 /* Pods_GoogleMLKitExample_GoogleMLKitExampleUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		303491172702F01F0080AE05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 303490F82702F01E0080AE05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 303490FF2702F01E0080AE05;
+			remoteInfo = GoogleMLKitExample;
+		};
+		303491222702F01F0080AE05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 303490F82702F01E0080AE05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 303490FF2702F01E0080AE05;
+			remoteInfo = GoogleMLKitExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15B25CCE8754C330A19B0EFA /* Pods-GoogleMLKitExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMLKitExampleTests.release.xcconfig"; path = "Target Support Files/Pods-GoogleMLKitExampleTests/Pods-GoogleMLKitExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		303491002702F01E0080AE05 /* GoogleMLKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleMLKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		303491032702F01E0080AE05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		303491052702F01E0080AE05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		303491072702F01E0080AE05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3034910A2702F01E0080AE05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3034910C2702F01F0080AE05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3034910F2702F01F0080AE05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		303491112702F01F0080AE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303491162702F01F0080AE05 /* GoogleMLKitExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleMLKitExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3034911A2702F01F0080AE05 /* GoogleMLKitExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMLKitExampleTests.swift; sourceTree = "<group>"; };
+		3034911C2702F01F0080AE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303491212702F01F0080AE05 /* GoogleMLKitExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleMLKitExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		303491252702F01F0080AE05 /* GoogleMLKitExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMLKitExampleUITests.swift; sourceTree = "<group>"; };
+		303491272702F01F0080AE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97D886ED176AC98233C3839C /* Pods_GoogleMLKitExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMLKitExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6929630F9F679AE235A596 /* Pods-GoogleMLKitExample-GoogleMLKitExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMLKitExample-GoogleMLKitExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-GoogleMLKitExample-GoogleMLKitExampleUITests/Pods-GoogleMLKitExample-GoogleMLKitExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AAD5E59EC05B3789098616B3 /* Pods-GoogleMLKitExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMLKitExample.release.xcconfig"; path = "Target Support Files/Pods-GoogleMLKitExample/Pods-GoogleMLKitExample.release.xcconfig"; sourceTree = "<group>"; };
+		B693127B70D852093CB44DB4 /* Pods-GoogleMLKitExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMLKitExample.debug.xcconfig"; path = "Target Support Files/Pods-GoogleMLKitExample/Pods-GoogleMLKitExample.debug.xcconfig"; sourceTree = "<group>"; };
+		BBFE9990355B543092A822DF /* Pods_GoogleMLKitExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMLKitExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD242353E3E9E6D8A0BA298C /* Pods-GoogleMLKitExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMLKitExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-GoogleMLKitExampleTests/Pods-GoogleMLKitExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E37D69CF05075F9B67BDE60F /* Pods-GoogleMLKitExample-GoogleMLKitExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleMLKitExample-GoogleMLKitExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-GoogleMLKitExample-GoogleMLKitExampleUITests/Pods-GoogleMLKitExample-GoogleMLKitExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA2A7D749BD9EF6BDD011F30 /* Pods_GoogleMLKitExample_GoogleMLKitExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleMLKitExample_GoogleMLKitExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		303490FD2702F01E0080AE05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09E809622C7A9FDF4D1C5E10 /* Pods_GoogleMLKitExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303491132702F01F0080AE05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4280194A06AD32BD74E454F6 /* Pods_GoogleMLKitExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3034911E2702F01F0080AE05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8993A033D3B37DE003294412 /* Pods_GoogleMLKitExample_GoogleMLKitExampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		303490F72702F01E0080AE05 = {
+			isa = PBXGroup;
+			children = (
+				303491022702F01E0080AE05 /* GoogleMLKitExample */,
+				303491192702F01F0080AE05 /* GoogleMLKitExampleTests */,
+				303491242702F01F0080AE05 /* GoogleMLKitExampleUITests */,
+				303491012702F01E0080AE05 /* Products */,
+				DB79582B294C004D8FA080CC /* Pods */,
+				64BA8DCB08E4522401E2AC6C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		303491012702F01E0080AE05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				303491002702F01E0080AE05 /* GoogleMLKitExample.app */,
+				303491162702F01F0080AE05 /* GoogleMLKitExampleTests.xctest */,
+				303491212702F01F0080AE05 /* GoogleMLKitExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		303491022702F01E0080AE05 /* GoogleMLKitExample */ = {
+			isa = PBXGroup;
+			children = (
+				303491032702F01E0080AE05 /* AppDelegate.swift */,
+				303491052702F01E0080AE05 /* SceneDelegate.swift */,
+				303491072702F01E0080AE05 /* ViewController.swift */,
+				303491092702F01E0080AE05 /* Main.storyboard */,
+				3034910C2702F01F0080AE05 /* Assets.xcassets */,
+				3034910E2702F01F0080AE05 /* LaunchScreen.storyboard */,
+				303491112702F01F0080AE05 /* Info.plist */,
+			);
+			path = GoogleMLKitExample;
+			sourceTree = "<group>";
+		};
+		303491192702F01F0080AE05 /* GoogleMLKitExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				3034911A2702F01F0080AE05 /* GoogleMLKitExampleTests.swift */,
+				3034911C2702F01F0080AE05 /* Info.plist */,
+			);
+			path = GoogleMLKitExampleTests;
+			sourceTree = "<group>";
+		};
+		303491242702F01F0080AE05 /* GoogleMLKitExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				303491252702F01F0080AE05 /* GoogleMLKitExampleUITests.swift */,
+				303491272702F01F0080AE05 /* Info.plist */,
+			);
+			path = GoogleMLKitExampleUITests;
+			sourceTree = "<group>";
+		};
+		64BA8DCB08E4522401E2AC6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97D886ED176AC98233C3839C /* Pods_GoogleMLKitExample.framework */,
+				FA2A7D749BD9EF6BDD011F30 /* Pods_GoogleMLKitExample_GoogleMLKitExampleUITests.framework */,
+				BBFE9990355B543092A822DF /* Pods_GoogleMLKitExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB79582B294C004D8FA080CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B693127B70D852093CB44DB4 /* Pods-GoogleMLKitExample.debug.xcconfig */,
+				AAD5E59EC05B3789098616B3 /* Pods-GoogleMLKitExample.release.xcconfig */,
+				E37D69CF05075F9B67BDE60F /* Pods-GoogleMLKitExample-GoogleMLKitExampleUITests.debug.xcconfig */,
+				AA6929630F9F679AE235A596 /* Pods-GoogleMLKitExample-GoogleMLKitExampleUITests.release.xcconfig */,
+				CD242353E3E9E6D8A0BA298C /* Pods-GoogleMLKitExampleTests.debug.xcconfig */,
+				15B25CCE8754C330A19B0EFA /* Pods-GoogleMLKitExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		303490FF2702F01E0080AE05 /* GoogleMLKitExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3034912A2702F01F0080AE05 /* Build configuration list for PBXNativeTarget "GoogleMLKitExample" */;
+			buildPhases = (
+				725E579BAE685AED786365F0 /* [CP] Check Pods Manifest.lock */,
+				303490FC2702F01E0080AE05 /* Sources */,
+				303490FD2702F01E0080AE05 /* Frameworks */,
+				303490FE2702F01E0080AE05 /* Resources */,
+				8130B6DA642DD8E8E773CD2C /* [CP] Embed Pods Frameworks */,
+				4B5BA89D3657A805DF32D799 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleMLKitExample;
+			productName = GoogleMLKitExample;
+			productReference = 303491002702F01E0080AE05 /* GoogleMLKitExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		303491152702F01F0080AE05 /* GoogleMLKitExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3034912D2702F01F0080AE05 /* Build configuration list for PBXNativeTarget "GoogleMLKitExampleTests" */;
+			buildPhases = (
+				DA9814778A55C77AEB677E33 /* [CP] Check Pods Manifest.lock */,
+				303491122702F01F0080AE05 /* Sources */,
+				303491132702F01F0080AE05 /* Frameworks */,
+				303491142702F01F0080AE05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				303491182702F01F0080AE05 /* PBXTargetDependency */,
+			);
+			name = GoogleMLKitExampleTests;
+			productName = GoogleMLKitExampleTests;
+			productReference = 303491162702F01F0080AE05 /* GoogleMLKitExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		303491202702F01F0080AE05 /* GoogleMLKitExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303491302702F01F0080AE05 /* Build configuration list for PBXNativeTarget "GoogleMLKitExampleUITests" */;
+			buildPhases = (
+				94968FFAF37CCB609570D514 /* [CP] Check Pods Manifest.lock */,
+				3034911D2702F01F0080AE05 /* Sources */,
+				3034911E2702F01F0080AE05 /* Frameworks */,
+				3034911F2702F01F0080AE05 /* Resources */,
+				B6EA0B90FD936A95A40A80BC /* [CP] Embed Pods Frameworks */,
+				7F7FB364A3E9C8E4973D98E3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				303491232702F01F0080AE05 /* PBXTargetDependency */,
+			);
+			name = GoogleMLKitExampleUITests;
+			productName = GoogleMLKitExampleUITests;
+			productReference = 303491212702F01F0080AE05 /* GoogleMLKitExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		303490F82702F01E0080AE05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					303490FF2702F01E0080AE05 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					303491152702F01F0080AE05 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 303490FF2702F01E0080AE05;
+					};
+					303491202702F01F0080AE05 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 303490FF2702F01E0080AE05;
+					};
+				};
+			};
+			buildConfigurationList = 303490FB2702F01E0080AE05 /* Build configuration list for PBXProject "GoogleMLKitExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 303490F72702F01E0080AE05;
+			productRefGroup = 303491012702F01E0080AE05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				303490FF2702F01E0080AE05 /* GoogleMLKitExample */,
+				303491152702F01F0080AE05 /* GoogleMLKitExampleTests */,
+				303491202702F01F0080AE05 /* GoogleMLKitExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		303490FE2702F01E0080AE05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303491102702F01F0080AE05 /* LaunchScreen.storyboard in Resources */,
+				3034910D2702F01F0080AE05 /* Assets.xcassets in Resources */,
+				3034910B2702F01E0080AE05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303491142702F01F0080AE05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3034911F2702F01F0080AE05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B5BA89D3657A805DF32D799 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMLKitExample/Pods-GoogleMLKitExample-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMLKitExample/Pods-GoogleMLKitExample-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleMLKitExample/Pods-GoogleMLKitExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		725E579BAE685AED786365F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleMLKitExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F7FB364A3E9C8E4973D98E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMLKitExample-GoogleMLKitExampleUITests/Pods-GoogleMLKitExample-GoogleMLKitExampleUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMLKitExample-GoogleMLKitExampleUITests/Pods-GoogleMLKitExample-GoogleMLKitExampleUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleMLKitExample-GoogleMLKitExampleUITests/Pods-GoogleMLKitExample-GoogleMLKitExampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8130B6DA642DD8E8E773CD2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMLKitExample/Pods-GoogleMLKitExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMLKitExample/Pods-GoogleMLKitExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleMLKitExample/Pods-GoogleMLKitExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94968FFAF37CCB609570D514 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleMLKitExample-GoogleMLKitExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6EA0B90FD936A95A40A80BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMLKitExample-GoogleMLKitExampleUITests/Pods-GoogleMLKitExample-GoogleMLKitExampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleMLKitExample-GoogleMLKitExampleUITests/Pods-GoogleMLKitExample-GoogleMLKitExampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleMLKitExample-GoogleMLKitExampleUITests/Pods-GoogleMLKitExample-GoogleMLKitExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA9814778A55C77AEB677E33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleMLKitExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		303490FC2702F01E0080AE05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303491082702F01E0080AE05 /* ViewController.swift in Sources */,
+				303491042702F01E0080AE05 /* AppDelegate.swift in Sources */,
+				303491062702F01E0080AE05 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303491122702F01F0080AE05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3034911B2702F01F0080AE05 /* GoogleMLKitExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3034911D2702F01F0080AE05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303491262702F01F0080AE05 /* GoogleMLKitExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		303491182702F01F0080AE05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 303490FF2702F01E0080AE05 /* GoogleMLKitExample */;
+			targetProxy = 303491172702F01F0080AE05 /* PBXContainerItemProxy */;
+		};
+		303491232702F01F0080AE05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 303490FF2702F01E0080AE05 /* GoogleMLKitExample */;
+			targetProxy = 303491222702F01F0080AE05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		303491092702F01E0080AE05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3034910A2702F01E0080AE05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3034910E2702F01F0080AE05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3034910F2702F01F0080AE05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		303491282702F01F0080AE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		303491292702F01F0080AE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3034912B2702F01F0080AE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B693127B70D852093CB44DB4 /* Pods-GoogleMLKitExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoogleMLKitExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = romana.GoogleMLKitExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3034912C2702F01F0080AE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD5E59EC05B3789098616B3 /* Pods-GoogleMLKitExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoogleMLKitExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = romana.GoogleMLKitExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3034912E2702F01F0080AE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD242353E3E9E6D8A0BA298C /* Pods-GoogleMLKitExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoogleMLKitExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = romana.GoogleMLKitExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleMLKitExample.app/GoogleMLKitExample";
+			};
+			name = Debug;
+		};
+		3034912F2702F01F0080AE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15B25CCE8754C330A19B0EFA /* Pods-GoogleMLKitExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoogleMLKitExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = romana.GoogleMLKitExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleMLKitExample.app/GoogleMLKitExample";
+			};
+			name = Release;
+		};
+		303491312702F01F0080AE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E37D69CF05075F9B67BDE60F /* Pods-GoogleMLKitExample-GoogleMLKitExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoogleMLKitExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = romana.GoogleMLKitExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoogleMLKitExample;
+			};
+			name = Debug;
+		};
+		303491322702F01F0080AE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA6929630F9F679AE235A596 /* Pods-GoogleMLKitExample-GoogleMLKitExampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GoogleMLKitExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = romana.GoogleMLKitExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoogleMLKitExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		303490FB2702F01E0080AE05 /* Build configuration list for PBXProject "GoogleMLKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303491282702F01F0080AE05 /* Debug */,
+				303491292702F01F0080AE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3034912A2702F01F0080AE05 /* Build configuration list for PBXNativeTarget "GoogleMLKitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3034912B2702F01F0080AE05 /* Debug */,
+				3034912C2702F01F0080AE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3034912D2702F01F0080AE05 /* Build configuration list for PBXNativeTarget "GoogleMLKitExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3034912E2702F01F0080AE05 /* Debug */,
+				3034912F2702F01F0080AE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		303491302702F01F0080AE05 /* Build configuration list for PBXNativeTarget "GoogleMLKitExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303491312702F01F0080AE05 /* Debug */,
+				303491322702F01F0080AE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 303490F82702F01E0080AE05 /* Project object */;
+}
